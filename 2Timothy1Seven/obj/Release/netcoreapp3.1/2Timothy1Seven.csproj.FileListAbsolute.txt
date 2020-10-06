@@ -1,0 +1,12 @@
+C:\Users\Vincent\Desktop\Hacks\Open Source\2Timothy1Seven\2Timothy1Seven\2Timothy1Seven\bin\Release\netcoreapp3.1\2Timothy1Seven.exe
+C:\Users\Vincent\Desktop\Hacks\Open Source\2Timothy1Seven\2Timothy1Seven\2Timothy1Seven\bin\Release\netcoreapp3.1\2Timothy1Seven.deps.json
+C:\Users\Vincent\Desktop\Hacks\Open Source\2Timothy1Seven\2Timothy1Seven\2Timothy1Seven\bin\Release\netcoreapp3.1\2Timothy1Seven.runtimeconfig.json
+C:\Users\Vincent\Desktop\Hacks\Open Source\2Timothy1Seven\2Timothy1Seven\2Timothy1Seven\bin\Release\netcoreapp3.1\2Timothy1Seven.runtimeconfig.dev.json
+C:\Users\Vincent\Desktop\Hacks\Open Source\2Timothy1Seven\2Timothy1Seven\2Timothy1Seven\bin\Release\netcoreapp3.1\2Timothy1Seven.dll
+C:\Users\Vincent\Desktop\Hacks\Open Source\2Timothy1Seven\2Timothy1Seven\2Timothy1Seven\bin\Release\netcoreapp3.1\2Timothy1Seven.pdb
+C:\Users\Vincent\Desktop\Hacks\Open Source\2Timothy1Seven\2Timothy1Seven\2Timothy1Seven\obj\Release\netcoreapp3.1\2Timothy1Seven.AssemblyInfoInputs.cache
+C:\Users\Vincent\Desktop\Hacks\Open Source\2Timothy1Seven\2Timothy1Seven\2Timothy1Seven\obj\Release\netcoreapp3.1\2Timothy1Seven.AssemblyInfo.cs
+C:\Users\Vincent\Desktop\Hacks\Open Source\2Timothy1Seven\2Timothy1Seven\2Timothy1Seven\obj\Release\netcoreapp3.1\2Timothy1Seven.csproj.CoreCompileInputs.cache
+C:\Users\Vincent\Desktop\Hacks\Open Source\2Timothy1Seven\2Timothy1Seven\2Timothy1Seven\obj\Release\netcoreapp3.1\2Timothy1Seven.dll
+C:\Users\Vincent\Desktop\Hacks\Open Source\2Timothy1Seven\2Timothy1Seven\2Timothy1Seven\obj\Release\netcoreapp3.1\2Timothy1Seven.pdb
+C:\Users\Vincent\Desktop\Hacks\Open Source\2Timothy1Seven\2Timothy1Seven\2Timothy1Seven\obj\Release\netcoreapp3.1\2Timothy1Seven.genruntimeconfig.cache
