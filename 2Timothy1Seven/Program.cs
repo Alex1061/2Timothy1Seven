@@ -17,25 +17,20 @@ namespace _2Timothy1Seven
             Startup();
         }
         public static void Startup()
-        {
-            //Pass the file path and file name to the StreamReader constructor.
-            StreamReader sr = new StreamReader("C:\\Config.txt");
-            
-
-            Console.ReadLine();
-            if (sr == null)
+        {   
+            if (!File.Exists("Config.txt"))
             {
                 Configuration();
             }
-            else
-            //Read the first line of text.
-            Config.name = sr.ReadLine();
-
-            //Close the file.
-            sr.Close();
-
+            else if (File.Exists("Config.txt"))
             {
-                Console.WriteLine("Welcome to 2Timothy1Seven!" + Config.name);
+                StreamReader sr = new StreamReader("Config.txt");
+                Config.name = sr.ReadLine();
+                sr.Close();
+            }               
+            {
+                //Welcome Menu
+                Console.WriteLine("Welcome: " + Config.name + " to 2Timothy1Seven!");
                 Console.Beep();
                 Console.WriteLine("By Vincent Jenei (Lite #4211)");
                 Console.Beep();
@@ -51,24 +46,60 @@ namespace _2Timothy1Seven
                 Console.Beep();
                 Console.WriteLine("");
                 Console.Beep();
+
+                SelectionMenu();
             }
             Console.Write("Press enter key to exit.");
             Console.Beep();
             Console.ReadLine();
         }
 
+        public static void SelectionMenu()
+        {
+            //Select Menu
+            Console.WriteLine("");
+            Console.Beep();
+            Console.WriteLine("");
+            Console.Beep();
+            Console.WriteLine("What hacks would you like to use today?");
+            Console.Beep();
+            Console.WriteLine("");
+            Console.Beep();
+            Console.WriteLine("1: Among Us");
+            Console.WriteLine("");
+            Console.Beep();
+            Console.WriteLine("(Depreceted) 2: Roblox");
+            Console.Beep();
+
+            Console.Write("Selection: ");
+            Console.Beep();
+            string selection = Console.ReadLine();
+
+            if (selection != "1")
+            {
+                Console.Write("Invalid selection my g, input a valid value.");
+                Console.Beep();
+                SelectionMenu();
+            }
+            else 
+            if (selection == "1")
+            {
+                Console.Write("Valid selection my g!");
+                Console.Beep();
+            }
+        }
         public static void Configuration()
         {
             Console.Write("Enter your name: ");
             Console.Beep();
-            Config.name = Console.ReadLine();;
+            Config.name = Console.ReadLine();
+            Console.Beep();
 
-            //Pass the filepath and filename to the StreamWriter Constructor.
-            StreamWriter sw = new StreamWriter("C:\\Config.txt");
-            //Write a line of text.
+
+            StreamWriter sw = new StreamWriter("Config.txt");
             sw.WriteLine(Config.name);
-            //Close the file.
             sw.Close();
+
             Console.WriteLine("Configuration Complete.");
             Console.Beep();
             Console.WriteLine("");
