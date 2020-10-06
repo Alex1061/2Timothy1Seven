@@ -49,6 +49,8 @@ namespace _2Timothy1Seven
 
                 SelectionMenu();
             }
+            Console.WriteLine("");
+            Console.Beep();
             Console.Write("Press enter key to exit.");
             Console.Beep();
             Console.ReadLine();
@@ -77,14 +79,22 @@ namespace _2Timothy1Seven
 
             if (selection != "1")
             {
+                Console.WriteLine("");
+                Console.Beep();
                 Console.Write("Invalid selection my g, input a valid value.");
+                Console.WriteLine("");
+                Console.Beep();
                 Console.Beep();
                 SelectionMenu();
             }
             else 
             if (selection == "1")
             {
+                Console.WriteLine("");
+                Console.Beep();
                 Console.Write("Valid selection my g!");
+                Console.WriteLine("");
+                Console.Beep();
                 Console.Beep();
             }
         }
