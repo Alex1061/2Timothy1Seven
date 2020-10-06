@@ -27,10 +27,10 @@ public class AmongUsHack
                     processOpen = true;
                 } else
                 {
-                    Console.Write("Open the Among Us process.");
+                    Console.WriteLine("Open the Among Us process. ");
                 }
             }
-            Thread.Sleep(5000);
+            Thread.Sleep(2500);
         }
     }
 }
