@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "2Timothy1Seven/1.0.0": {
+        "runtime": {
+          "2Timothy1Seven.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "2Timothy1Seven/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

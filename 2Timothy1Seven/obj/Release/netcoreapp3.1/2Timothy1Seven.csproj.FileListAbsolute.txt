@@ -10,3 +10,4 @@ C:\Users\Vincent\Desktop\Hacks\Open Source\2Timothy1Seven\2Timothy1Seven\2Timoth
 C:\Users\Vincent\Desktop\Hacks\Open Source\2Timothy1Seven\2Timothy1Seven\2Timothy1Seven\obj\Release\netcoreapp3.1\2Timothy1Seven.dll
 C:\Users\Vincent\Desktop\Hacks\Open Source\2Timothy1Seven\2Timothy1Seven\2Timothy1Seven\obj\Release\netcoreapp3.1\2Timothy1Seven.pdb
 C:\Users\Vincent\Desktop\Hacks\Open Source\2Timothy1Seven\2Timothy1Seven\2Timothy1Seven\obj\Release\netcoreapp3.1\2Timothy1Seven.genruntimeconfig.cache
+C:\Users\Vincent\Desktop\Hacks\Open Source\2Timothy1Seven\2Timothy1Seven\2Timothy1Seven\obj\Release\netcoreapp3.1\2Timothy1Seven.csprojAssemblyReference.cache
