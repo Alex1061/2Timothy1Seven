@@ -83,7 +83,7 @@ namespace _2Timothy1Seven
             {
                 Console.WriteLine("");
                 Console.Beep();
-                Console.WriteLine("Invalid selection my g, input a valid value.");
+                Console.WriteLine("Invalid selection.");
                 Console.Beep();
                 Console.WriteLine("");
                 Console.Beep();
@@ -94,7 +94,7 @@ namespace _2Timothy1Seven
             {
                 Console.WriteLine("");
                 Console.Beep();
-                Console.WriteLine("Valid selection my g!");
+                Console.WriteLine("Valid selection.");
                 Console.Beep();
                 Console.WriteLine("");
                 Console.Beep();
