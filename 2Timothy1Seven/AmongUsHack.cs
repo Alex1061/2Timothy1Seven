@@ -87,7 +87,7 @@ namespace _2Timothy1Seven
                 Console.Beep();
                 Console.WriteLine(".");
                 Console.Beep();
-                Process.GetCurrentProcess().Close();
+                return;
             }
 
             HackSelection();
