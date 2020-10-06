@@ -7,7 +7,7 @@ namespace _2Timothy1Seven
     //Process Checker:
     public class AmongUsHack
     {
-        public Mem m = new Mem();
+        public Mem mem = new Mem();
         public bool processOpen = false;
 
         public AmongUsHack()
@@ -16,7 +16,7 @@ namespace _2Timothy1Seven
             {
                 if (processOpen)
                 {
-                    if (!m.OpenProcess("Among Us"))
+                    if (!mem.OpenProcess("Among Us"))
                     {
                         Console.WriteLine("Process Closed. ");
                         processOpen = false;
@@ -24,12 +24,12 @@ namespace _2Timothy1Seven
                     else
                     //Among us IS open:
                     {
-
+                        HackSelection();
                     }
                 }
                 else if (!processOpen)
                 {
-                    if (m.OpenProcess("Among Us"))
+                    if (mem.OpenProcess("Among Us"))
                     {
                         Console.WriteLine("Process Opened. ");
                         processOpen = true;
@@ -42,6 +42,24 @@ namespace _2Timothy1Seven
                 }
                 Thread.Sleep(2500);
             }
+        }
+
+        public string hackSelection;
+        public void HackSelection()
+        {
+            Console.WriteLine(" ");
+            Console.Beep();
+            Console.WriteLine(" Select which hack you would like to perform.");
+            Console.Beep();
+            Console.Write("1: ");
+            Console.Beep();
+            Console.WriteLine("No Clip.");
+            Console.Beep();
+            Console.WriteLine(" ");
+            Console.Beep();
+            Console.Write("Selection: ");
+            Console.Beep();
+            hackSelection = Console.ReadLine();
         }
     }
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Numerics;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -7,6 +8,8 @@ namespace _2Timothy1Seven
 {
     public class Player
     {
+        static AmongUsHack Main = new AmongUsHack();
+
         #region ObserveStates
         private bool player_hasDied = false;
         #endregion

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fEGr/THVXXR+pROUPSqoI7Ctd8MBpIveaPa6XwauFPNSI6W+QaaFvy5mUhtIb1XJBDDg68E21KVi1UBLYcw5gg==",
+  "dgSpecHash": "J1YBgUTedOOJ3wWE/8IuVWvYkz+v7IB2ywruWDnbcRhEYKspPB2mzHslSNfAp0GJSRhD8umoQfidJr0c0dv9Qg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vincent\\Desktop\\Hacks\\Open Source\\2Timothy1Seven\\2Timothy1Seven\\2Timothy1Seven\\2Timothy1Seven.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Vincent\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
