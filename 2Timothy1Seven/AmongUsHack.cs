@@ -2,6 +2,7 @@
 using System.Threading;
 using Memory;
 
+//Process Checker:
 public class AmongUsHack
 {
 	public Mem m = new Mem();
@@ -15,17 +16,23 @@ public class AmongUsHack
             {
                 if (!m.OpenProcess("Among Us"))
                 {
-                    Console.WriteLine("Process Closed.");
+                    Console.WriteLine("Process Closed. ");
                     processOpen = false;
+                } else 
+                //Among us IS open:
+                {
+
                 }
             }
             else if (!processOpen)
             {
                 if (m.OpenProcess("Among Us"))
                 {
-                    Console.WriteLine("Process Opened.");
+                    Console.WriteLine("Process Opened. ");
                     processOpen = true;
-                } else
+                } 
+                else 
+                //Among us IS NOT open:
                 {
                     Console.WriteLine("Open the Among Us process. ");
                 }
@@ -33,4 +40,10 @@ public class AmongUsHack
             Thread.Sleep(2500);
         }
     }
+}
+
+//Actual Hacks:
+public class AmongUsHacks
+{
+
 }
