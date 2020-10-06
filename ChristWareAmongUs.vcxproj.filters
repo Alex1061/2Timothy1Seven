@@ -162,7 +162,6 @@
     <None Include="Detours\detours.pdb">
       <Filter>Detours</Filter>
     </None>
-    <None Include="LICENSE" />
     <None Include="Detours\LICENSE.md">
       <Filter>Detours</Filter>
     </None>

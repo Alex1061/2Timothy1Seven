@@ -84,7 +84,6 @@
   <ItemGroup>
     <None Include="Detours\detours.pdb" />
     <None Include="Detours\LICENSE.md" />
-    <None Include="LICENSE" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="imgui\LICENSE.txt" />
@@ -95,7 +94,7 @@
     <ProjectGuid>{6E8DA5BA-DFCE-43F3-85D7-B72396484D7E}</ProjectGuid>
     <RootNamespace>Il2CppDLL</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>ChristWareAU</ProjectName>
+    <ProjectName>2Timothy1Seven</ProjectName>
     <!--<WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>-->
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
