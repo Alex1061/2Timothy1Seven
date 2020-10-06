@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Threading;
 using Memory;
 
@@ -49,17 +50,47 @@ namespace _2Timothy1Seven
         {
             Console.WriteLine(" ");
             Console.Beep();
-            Console.WriteLine(" Select which hack you would like to perform.");
+            Console.WriteLine(" Select what you would like to perform.");
             Console.Beep();
             Console.Write("1: ");
             Console.Beep();
             Console.WriteLine("No Clip.");
             Console.Beep();
+            Console.Write("2: ");
+            Console.Beep();
+            Console.WriteLine("Exit.");
+            Console.Beep();
             Console.WriteLine(" ");
             Console.Beep();
             Console.Write("Selection: ");
             Console.Beep();
+
             hackSelection = Console.ReadLine();
+
+            if (hackSelection == "1")
+            {
+                Console.WriteLine(" ");
+                Console.Beep();
+                Console.WriteLine("No Clip enabled!");
+                Console.Beep();
+            }
+
+            if (hackSelection == "2")
+            {
+                Console.WriteLine(" ");
+                Console.Beep();
+                Console.Write("Goodbye!");
+                Console.Beep();
+                Console.Write(".");
+                Console.Beep();
+                Console.Write(".");
+                Console.Beep();
+                Console.WriteLine(".");
+                Console.Beep();
+                Process.GetCurrentProcess().Close();
+            }
+
+            HackSelection();
         }
     }
 

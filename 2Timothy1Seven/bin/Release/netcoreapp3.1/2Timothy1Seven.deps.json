@@ -8,12 +8,14 @@
     ".NETCoreApp,Version=v3.1": {
       "2Timothy1Seven/1.0.0": {
         "dependencies": {
+          "System.Security.Principal.Windows": "4.7.0",
           "Memory": "1.0.0.0"
         },
         "runtime": {
           "2Timothy1Seven.dll": {}
         }
       },
+      "System.Security.Principal.Windows/4.7.0": {},
       "Memory/1.0.0.0": {
         "runtime": {
           "Memory.dll": {
@@ -29,6 +31,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "path": "system.security.principal.windows/4.7.0",
+      "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     },
     "Memory/1.0.0.0": {
       "type": "reference",
