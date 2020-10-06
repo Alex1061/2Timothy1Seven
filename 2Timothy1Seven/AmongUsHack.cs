@@ -25,6 +25,9 @@ public class AmongUsHack
                 {
                     Console.WriteLine("Process Opened.");
                     processOpen = true;
+                } else
+                {
+                    Console.Write("Open the Among Us process.");
                 }
             }
             Thread.Sleep(5000);
