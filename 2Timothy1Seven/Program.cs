@@ -81,9 +81,9 @@ namespace _2Timothy1Seven
             {
                 Console.WriteLine("");
                 Console.Beep();
-                Console.Write("Invalid selection my g, input a valid value.");
-                Console.WriteLine("");
+                Console.WriteLine("Invalid selection my g, input a valid value.");
                 Console.Beep();
+                Console.WriteLine("");
                 Console.Beep();
                 SelectionMenu();
             }
@@ -92,10 +92,11 @@ namespace _2Timothy1Seven
             {
                 Console.WriteLine("");
                 Console.Beep();
-                Console.Write("Valid selection my g!");
+                Console.WriteLine("Valid selection my g!");
+                Console.Beep();
                 Console.WriteLine("");
                 Console.Beep();
-                Console.Beep();
+                LoadAmongUsHacks();
             }
         }
         public static void Configuration()
@@ -116,6 +117,22 @@ namespace _2Timothy1Seven
             Console.Beep();
 
             Startup();
+        }
+        public static void LoadAmongUsHacks()
+        {
+            Console.WriteLine("");
+            Console.Beep();
+            Console.Write("Loading");
+            Console.Beep();
+            Console.Write(".");
+            Console.Beep();
+            Console.Write(".");
+            Console.Beep();
+            Console.Write(".");
+            Console.Beep();
+            Console.WriteLine("");
+            Console.Beep();
+            AmongUsHack amongUsHacks = new AmongUsHack();
         }
     }
 }

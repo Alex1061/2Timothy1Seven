@@ -6,4 +6,10 @@
     <RootNamespace>_2Timothy1Seven</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Memory">
+      <HintPath>memorydll\Memory.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
