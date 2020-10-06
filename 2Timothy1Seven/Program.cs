@@ -44,14 +44,16 @@ namespace _2Timothy1Seven
                 Console.Beep();
                 Console.WriteLine("");
                 Console.Beep();
-                Console.WriteLine("");
-                Console.Beep();
 
                 SelectionMenu();
             }
+
+            //If somehow returned to here:
             Console.WriteLine("");
             Console.Beep();
             Console.Write("Press enter key to exit.");
+            Console.Beep();
+            Console.WriteLine("");
             Console.Beep();
             Console.ReadLine();
         }
@@ -59,8 +61,6 @@ namespace _2Timothy1Seven
         public static void SelectionMenu()
         {
             //Select Menu
-            Console.WriteLine("");
-            Console.Beep();
             Console.WriteLine("");
             Console.Beep();
             Console.WriteLine("What hacks would you like to use today?");
