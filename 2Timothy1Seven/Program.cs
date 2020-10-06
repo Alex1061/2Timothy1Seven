@@ -134,6 +134,8 @@ namespace _2Timothy1Seven
             Console.Beep();
             Console.WriteLine("");
             Console.Beep();
+            Console.WriteLine("");
+            Console.Beep();
             AmongUsHack amongUsHacks = new AmongUsHack();
         }
     }
