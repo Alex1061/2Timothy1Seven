@@ -5,21 +5,27 @@ using Memory;
 public class AmongUsHack
 {
 	public Mem m = new Mem();
+    public bool processOpen = false;
 
 	public AmongUsHack()
 	{
-        while (true)
+        while (!processOpen)
+        {
+            if (!m.OpenProcess("Among Us"))
+            {
+                Console.WriteLine("Process Closed.");
+                Thread.Sleep(1000);
+                processOpen = false;
+            }
+        }
+        while (processOpen)
         {
             if (m.OpenProcess("Among Us"))
             {
                 Console.WriteLine("Process Opened.");
                 Thread.Sleep(1000);
+                processOpen = true;
             }
-            else if (!m.OpenProcess("Among Us"))
-            {
-                Console.WriteLine("Process Closed.");
-                Thread.Sleep(1000);
-            }            
         }
     }
 }
