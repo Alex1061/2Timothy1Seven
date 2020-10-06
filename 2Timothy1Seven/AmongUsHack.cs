@@ -2,48 +2,52 @@
 using System.Threading;
 using Memory;
 
-//Process Checker:
-public class AmongUsHack
+namespace _2Timothy1Seven
 {
-	public Mem m = new Mem();
-    public bool processOpen = false;
+    //Process Checker:
+    public class AmongUsHack
+    {
+        public Mem m = new Mem();
+        public bool processOpen = false;
 
-	public AmongUsHack()
-	{
-        while (true)
+        public AmongUsHack()
         {
-            if (processOpen)
+            while (true)
             {
-                if (!m.OpenProcess("Among Us"))
+                if (processOpen)
                 {
-                    Console.WriteLine("Process Closed. ");
-                    processOpen = false;
-                } else 
-                //Among us IS open:
-                {
+                    if (!m.OpenProcess("Among Us"))
+                    {
+                        Console.WriteLine("Process Closed. ");
+                        processOpen = false;
+                    }
+                    else
+                    //Among us IS open:
+                    {
 
+                    }
                 }
-            }
-            else if (!processOpen)
-            {
-                if (m.OpenProcess("Among Us"))
+                else if (!processOpen)
                 {
-                    Console.WriteLine("Process Opened. ");
-                    processOpen = true;
-                } 
-                else 
-                //Among us IS NOT open:
-                {
-                    Console.WriteLine("Open the Among Us process. ");
+                    if (m.OpenProcess("Among Us"))
+                    {
+                        Console.WriteLine("Process Opened. ");
+                        processOpen = true;
+                    }
+                    else
+                    //Among us IS NOT open:
+                    {
+                        Console.WriteLine("Open the Among Us process. ");
+                    }
                 }
+                Thread.Sleep(2500);
             }
-            Thread.Sleep(2500);
         }
     }
-}
 
-//Actual Hacks:
-public class AmongUsHacks
-{
+    //Actual Hacks:
+    public class AmongUsHacks
+    {
 
+    }
 }
