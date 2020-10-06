@@ -9,6 +9,7 @@ namespace _2Timothy1Seven
     public class AmongUsHack
     {
         public Mem mem = new Mem();
+        public Player player = new Player();
         public bool processOpen = false;
 
         public AmongUsHack()
@@ -54,7 +55,7 @@ namespace _2Timothy1Seven
             Console.Beep();
             Console.Write("1: ");
             Console.Beep();
-            Console.WriteLine("No Clip.");
+            Console.WriteLine("Force Imposter.");
             Console.Beep();
             Console.Write("2: ");
             Console.Beep();
@@ -71,7 +72,10 @@ namespace _2Timothy1Seven
             {
                 Console.WriteLine(" ");
                 Console.Beep();
-                Console.WriteLine("No Clip enabled!");
+
+                player.Set_Impostor(1);
+
+                Console.WriteLine("Imposter enabled!");
                 Console.Beep();
             }
 
