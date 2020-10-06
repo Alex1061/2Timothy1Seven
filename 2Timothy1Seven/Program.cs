@@ -18,10 +18,22 @@ namespace _2Timothy1Seven
         }
         public static void Startup()
         {
-            if (Config.name == "100")
+            //Pass the file path and file name to the StreamReader constructor.
+            StreamReader sr = new StreamReader("C:\\Config.txt");
+            
+
+            Console.ReadLine();
+            if (sr == null)
             {
                 Configuration();
-            } else
+            }
+            else
+            //Read the first line of text.
+            Config.name = sr.ReadLine();
+
+            //Close the file.
+            sr.Close();
+
             {
                 Console.WriteLine("Welcome to 2Timothy1Seven!" + Config.name);
                 Console.Beep();
@@ -50,10 +62,19 @@ namespace _2Timothy1Seven
             Console.Write("Enter your name: ");
             Console.Beep();
             Config.name = Console.ReadLine();;
+
+            //Pass the filepath and filename to the StreamWriter Constructor.
+            StreamWriter sw = new StreamWriter("C:\\Config.txt");
+            //Write a line of text.
+            sw.WriteLine(Config.name);
+            //Close the file.
+            sw.Close();
             Console.WriteLine("Configuration Complete.");
             Console.Beep();
             Console.WriteLine("");
             Console.Beep();
+
+            Startup();
         }
     }
 }
