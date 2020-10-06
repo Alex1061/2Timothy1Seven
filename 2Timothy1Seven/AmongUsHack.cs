@@ -9,23 +9,25 @@ public class AmongUsHack
 
 	public AmongUsHack()
 	{
-        while (!processOpen)
+        while (true)
         {
-            if (!m.OpenProcess("Among Us"))
+            if (processOpen)
             {
-                Console.WriteLine("Process Closed.");
-                Thread.Sleep(1000);
-                processOpen = false;
+                if (!m.OpenProcess("Among Us"))
+                {
+                    Console.WriteLine("Process Closed.");
+                    processOpen = false;
+                }
             }
-        }
-        while (processOpen)
-        {
-            if (m.OpenProcess("Among Us"))
+            else if (!processOpen)
             {
-                Console.WriteLine("Process Opened.");
-                Thread.Sleep(1000);
-                processOpen = true;
+                if (m.OpenProcess("Among Us"))
+                {
+                    Console.WriteLine("Process Opened.");
+                    processOpen = true;
+                }
             }
+            Thread.Sleep(5000);
         }
     }
 }
